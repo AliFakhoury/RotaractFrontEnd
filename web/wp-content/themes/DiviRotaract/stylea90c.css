@@ -1,0 +1,136 @@
+/*
+Theme Name: Divi Rotaract
+Theme URI: http://www.elegantthemes.com/gallery/divi/
+Template: Divi
+Author: Elegant Themes & Xavoo
+Author URI: http://www.elegantthemes.com
+Description: Thème enfant - Divi Adapté pour le Rotaract France
+Version: 3.0.71.1503951418
+Updated: 2017-08-28 22:16:58
+
+*/
+
+
+/*** Blog Post Style CSS ***/
+
+H1.entry-title {
+text-align: center !important;
+}
+ 
+.single-post #main-content {
+background: #f7f9fb;
+}
+ 
+.post-meta {
+text-align:center;
+margin-bottom: 40px;
+ 
+}
+ 
+p.post-meta, .post-meta a {
+color: #71818c !important;
+font-size: 20px !important;
+}
+ 
+.single .et_pb_post {
+margin-bottom: 27px;
+box-shadow: 0px 0px 70px #d6dee4;
+}
+ 
+.et_pb_post .entry-content {
+padding: 40px;
+line-height: 26px;
+}
+ 
+.et_pb_post .entry-content p:first-of-type {
+padding-top: 40px;
+}
+.et_pb_post .entry-content p {
+padding-bottom: 40px;
+}
+ 
+.with-border {
+border-radius: 4px;
+box-shadow: 0px 0px 70px #d6dee4;
+}
+ 
+ol.commentlist > li.comment, #respond{
+background-color: #fff !important;
+padding: 40px !important;
+box-shadow: 0px 20px 150px #d6dee4;
+margin-bottom: 80px;
+}
+ 
+h1#comments {
+margin-bottom: 40px;
+}
+ 
+h3#reply-title {
+    font-size: 35px;
+    letter-spacing: 0px;
+}
+ 
+.comment_area .comment-reply-link, .form-submit .et_pb_button {
+font-size: 14px;
+color: #71818c;
+font-weight: 600;
+text-transform: uppercase;
+margin-top: 10px;
+float: right;
+display: inline-block;
+padding: 8px 16px;
+border-radius: 60px;
+background-color: #f7f9fb;
+border: 2px solid #e9eff5;
+position: inherit;
+float: right;
+}
+ 
+.form-submit .et_pb_button:hover {
+padding: 8px 16px;
+}
+ 
+.comment-reply-link.et_pb_button:hover:after {
+opacity: 0;
+}
+ 
+#commentform textarea {
+background-color: #f7f9fb;
+border: 2px solid #eff1f3;
+font-size: 18px;
+padding: 20px;
+color: #20292f;
+}
+ 
+.comment-body {
+padding: 0 0 0 100px;
+}
+ 
+@media only screen and (max-width: 768px) {
+h1.entry-title {
+    font-size: 48px;
+}
+}
+
+/* background menu */
+ #top-menu li li a:hover { background-color: #cc1a57 !important; }
+
+
+
+/* Increase mobile menu bar height */
+.et_header_style_left .mobile_menu_bar {
+  padding-bottom: 45px;
+}
+
+/* Moved hamburger down */
+.mobile_menu_bar:before {
+  top: 45px !important;
+}
+
+/* Set the maximum height of the logo itself */
+@media (max-width: 980px) {
+.et_header_style_left #logo {
+    max-height: 90% !important;
+  }
+}
+.single  #sidebar {display:none;}
